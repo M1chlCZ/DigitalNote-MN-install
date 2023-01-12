@@ -33,6 +33,7 @@ fi
 if [ -z "$ARGUMENTIP" ]; then
       if [ -z "$EXTERNALIP" ]; then
             echo "Script tried unsuccessfully find your IPv6 interface, please make sure you have IPv6 activated on this VPS"
+            echo "If you want script to configure your Netplan network for you please use command mnxsetup"
             echo "If everything is in order and you are sure of it, please enter your IPv6 manually"
             echo ""
             sleep 2
