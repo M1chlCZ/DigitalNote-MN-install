@@ -251,7 +251,7 @@ chown -R $USER:$USER ~/.XDN$NUM
 
 cat > /etc/systemd/system/xdn$NUM.service << EOL
 [Unit]
-Description=CCASHD$NUM
+Description=XDND$NUM
 After=network.target
 [Service]
 Type=forking

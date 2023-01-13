@@ -61,7 +61,7 @@ while [[ $# -gt 0 ]]; do
         ;;
     -h | --help)
         cat <<EOL
-CCASH Masternode installer arguments:
+XDN Masternode installer arguments:
     -n --normal               : Run installer in normal mode
     -a --advanced             : Run installer in advanced mode
     -i --externalip <address> : Public IP address of VPS
