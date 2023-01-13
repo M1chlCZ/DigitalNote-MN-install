@@ -257,8 +257,8 @@ After=network.target
 Type=forking
 User=root
 WorkingDirectory=/root/
-ExecStart=/root/Campusd -conf=/root/.XDN$NUM/DigitalNote.conf -datadir=/root/.XDN$NUM -listen=12$PR$i
-ExecStop=/root/Campusd -conf=/root/.XDN$NUM/DigitalNote.conf -datadir=/root/.XDN$NUM -listen=12$PR$i stop
+ExecStart=/root/DigitalNoted -conf=/root/.XDN$NUM/DigitalNote.conf -datadir=/root/.XDN$NUM -listen=12$PR$i
+ExecStop=/root/DigitalNoted -conf=/root/.XDN$NUM/DigitalNote.conf -datadir=/root/.XDN$NUM -listen=12$PR$i stop
 Restart=on-abort
 [Install]
 WantedBy=multi-user.target
